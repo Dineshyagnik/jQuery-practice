@@ -1,0 +1,28 @@
+<html>
+<head>
+     <title>Document</title>
+     <script src="jquery.js"></script>
+     <style>
+button{height: 40px; width: 100%; text-align: center; background: red;}
+div{height: 400px; width: 100%; background: green; display: none;}
+     </style>
+</head>
+<body>
+<button>hide</button>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio id minima quas perferendis ad repudiandae veniam accusamus debitis, labore magnam.</div>
+   <script>
+     $(document).ready(function(){
+    
+     $("button").click(function(){
+     //   $("div").slideUp(5000) 
+     // $("div").slideDown(5000) 
+     $("div").slideToggle(5000) 
+     })
+});
+   </script>
+</body>
+</html>
+
+
+
+

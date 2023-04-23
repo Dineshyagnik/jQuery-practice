@@ -1,0 +1,23 @@
+<html>
+<head>
+     <title>Document</title>
+     <script src="jquery.js"></script>
+
+</head>
+<body>
+<p>Lorem, ipsum.</p>
+ <button>click</button>
+   <script>
+     $(document).ready(function(){
+$("button").click(function(){
+ $("p").hide(3000,function(){
+    alert("hello") 
+ });
+
+})
+ 
+});
+   </script>
+</body>
+</html>
+

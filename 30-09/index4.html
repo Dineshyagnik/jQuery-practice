@@ -1,0 +1,37 @@
+<html>
+<head>
+     <title>Document</title>
+     <script src="jquery.js"></script>
+     <style>
+.a{background: red; display: none;}
+.b{background: green; position: absolute; top: 7px; left: 10px;}
+.c{height: 500px; width: 100%; background: orange;}
+     </style>
+
+</head>
+<body>
+<button class="a">show slider</button>
+<button class="b">hide slider</button>
+<div class="c">
+     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure itaque ad natus temporibus ipsa deserunt iste, tempora commodi rem nihil animi sequi eos aut delectus maxime eligendi repellat error illum architecto quia ex? Repellat expedita ipsa asperiores sed qui porro debitis eligendi deleniti laudantium quasi excepturi tenetur dolor aperiam deserunt ullam ipsum alias magnam sequi ex ipsam, sit nesciunt maiores temporibus! Officia dignissimos adipisci aliquid ullam consequuntur aperiam illo doloremque molestiae quas temporibus magni ex dolorem, magnam saepe, cum iusto dolor quibusdam debitis laudantium numquam obcaecati, dolorum a eos quaerat. Velit, corporis tenetur autem eaque omnis aliquid voluptate aut exercitationem tempora quam veritatis ab eligendi ex? Quibusdam quas cum ipsum praesentium itaque obcaecati. Consequuntur placeat exercitationem ex alias unde incidunt reiciendis distinctio aspernatur delectus nesciunt suscipit harum, qui totam necessitatibus iste reprehenderit blanditiis ipsa? Eaque voluptatibus soluta alias, modi magnam quis autem illo laudantium eligendi ab unde nihil omnis molestias amet necessitatibus! Molestias at in aperiam accusamus nihil laborum. Aliquam, soluta earum adipisci veritatis assumenda laboriosam doloribus deleniti incidunt quam architecto asperiores dolorem. Asperiores repellendus cum sint, quaerat sequi dicta illum ullam aut distinctio quis mollitia praesentium iure tempora sit inventore officia aperiam ipsa? Mollitia, nisi reiciendis? Veritatis quidem, dolores praesentium, ipsa laudantium ad, nobis quia corporis quaerat suscipit vero. Nihil modi repudiandae rem! Totam, odit ipsam. Consequatur tempora, labore corporis atque quae impedit culpa deleniti dolor nisi corrupti, illum excepturi pariatur maxime assumenda, quas delectus ad! Corporis excepturi possimus eum voluptas error itaque hic impedit tempora, nobis minima obcaecati fugit ab asperiores expedita vero doloremque, eligendi ducimus repudiandae ullam doloribus vitae eos placeat neque! Ab odit, sint animi perspiciatis vel incidunt inventore repellat accusantium, eveniet magni ipsa hic atque sequi sapiente ratione consectetur. Modi ipsam assumenda neque. Magnam iste ipsa numquam rerum, obcaecati provident exercitationem veniam laborum ratione saepe! Iusto deleniti sapiente soluta nulla illum eaque officiis cumque laudantium qui obcaecati? Tempore ad nostrum sunt nisi vel. Enim, numquam obcaecati pariatur possimus optio nesciunt? Distinctio, esse vero magnam, maxime earum rerum illo quia odio, quaerat aspernatur aperiam aut repellat harum beatae cumque dolore sequi neque quo. Ullam laborum similique veritatis nostrum corporis, voluptates animi error blanditiis praesentium eligendi minus explicabo eius atque facilis cumque, quasi corrupti. Eligendi vel mollitia officiis repudiandae nam, nemo culpa incidunt quasi sunt. Debitis recusandae praesentium ab a fugiat perspiciatis earum reiciendis repellendus quia, beatae doloribus mollitia, distinctio dignissimos. Nesciunt rem dolorem consequuntur a quis hic? Unde atque asperiores tenetur ipsa dolorem illum libero explicabo sint veritatis? Praesentium quas labore eligendi rerum beatae corporis cupiditate nam voluptates reiciendis. Iste, consequatur aut! Dicta accusamus facilis libero, deserunt illo saepe nemo eligendi ex porro suscipit doloribus voluptatum. Ratione reprehenderit porro nemo quae ipsum explicabo tenetur beatae delectus voluptatibus et aperiam sit aut dolorum exercitationem dignissimos sapiente nesciunt rem unde, blanditiis ducimus itaque hic pariatur atque? Facere at voluptas cupiditate sint illum molestiae aliquam eius in repudiandae sit repellat quae quis harum voluptatum beatae, eligendi accusamus id atque qui accusantium amet tenetur odit dolores! Architecto beatae deserunt pariatur!
+</div>
+   <script>
+     $(document).ready(function(){
+$(".b").click(function(){
+$(".c").slideUp(5000);
+$(".a").show();
+$(".b").hide();
+
+})
+$(".a").click(function(){
+$(".c").slideDown(5000);
+$(".b").show();
+$(".a").hide();
+
+})
+ 
+});
+   </script>
+</body>
+</html>
+

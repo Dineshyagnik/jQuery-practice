@@ -1,0 +1,31 @@
+<html>
+<head>
+     <title>Document</title>
+     <script src="jquery.js"></script>
+     <style>
+ul{list-style: none;}
+li{margin: 30px; display: inline;}
+.data{color: red;}
+     </style>
+</head>
+<body>
+ <ul>
+     <li>Home</li>
+     <li>About</li>
+     <li>News</li>
+     <li>Home</li>
+ </ul>
+ 
+   <script>
+     $(document).ready(function(){
+$("li").mouseover(function(){
+     $(this).addClass("data");
+})
+$("li").mouseout(function(){
+     $(this).removeClass("data");
+})  
+});
+   </script>
+</body>
+</html>
+
